@@ -28,17 +28,22 @@ body {
     box-shadow: none;
     border: 0;
     height: 42px;
-    width: 50%;
+    width: 100%;
     border-radius: 21px;
     background-color: #1A8C9D;
     color: #fff;
     font-family: "Nunito Sans";
 }
 
+.form-center {
+	width:400px;
+	margin: 0 auto;
+}
 
-
-form {
-    display: block;
+@media screen and (max-width: 600px){
+    .form-center {
+        width: 100%;
+    }
 }
 
 .save {
